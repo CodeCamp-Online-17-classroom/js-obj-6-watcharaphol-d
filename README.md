@@ -1,20 +1,4 @@
-# js-lab-51
-### Lab51 Object: Nested Object
-- ให้เขียนโค้ดเพื่อ log province  ของ product1
-- หากมี product2 เป็น object  ว่าง ให้ log province ของ  product2 โดยใช้คำสั่งเดียวกับ product1 (หาก Error ให้หาวิธีแก้)
-
-```JavaScript
-const product1 = {
-  name: 'Water',
-  distributor: {
-    name: 'Giraffe Water Company',
-    address: {
-      street: 'Phetchaburi',
-      subdistrict: 'Thanonphetchaburi',
-      district: 'Ratchathewi',
-      province: 'Bangkok'
-    }
-  }
-};
-const product2 = {}
-```
+# js-lab-52
+### Lab52 Object: isEmpty ?
+- ให้สร้างฟังก์ชันเพื่อตรวจสอบ object ว่าเป็น object ว่างหรือไม่ 
+- ถ้า object มี property อย่างน้อยหนึ่งแสดงว่าไม่ใช่ object ว่าง
